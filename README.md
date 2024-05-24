@@ -1,13 +1,3 @@
-
-# Task Management Backend
-
-Mini Task Management Application using PHP Laravel for the backend.
-
-First pull this project do the following steps!
-
-
-
-
 # Task Management Backend
 
 Mini Task Management Application using PHP Laravel for the backend.
@@ -69,7 +59,7 @@ MAIL_FROM_ADDRESS=mygoogle@gmail.com
 MAIL_FROM_NAME="${APP_NAME}"
 ```
 
-first run queue command
+after setting up email successfulle, first run queue command
 
 ```bash
   php artisan queue:work
